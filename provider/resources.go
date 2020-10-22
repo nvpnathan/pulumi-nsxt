@@ -285,6 +285,7 @@ func Provider() tfbridge.ProviderInfo {
 			"nsxt_certificate":                     {Tok: nsxtDataSource(nsxtMod, "getCertificate")},
 			"nsxt_ip_pool":                         {Tok: nsxtDataSource(nsxtMod, "getIPPool")},
 			"nsxt_firewall_section":                {Tok: nsxtDataSource(nsxtMod, "getFirewallSection")},
+			"nsxt_management_cluster":              {Tok: nsxtDataSource(nsxtMod, "getManagementCluster")},
 			"nsxt_policy_edge_cluster":             {Tok: nsxtDataSource(nsxtMod, "getPolicyEdgeCluster")},
 			"nsxt_policy_edge_node":                {Tok: nsxtDataSource(nsxtMod, "getPolicyEdgeNode")},
 			"nsxt_policy_tier0_gateway":            {Tok: nsxtDataSource(nsxtMod, "getPolicyTier0Gateway")},

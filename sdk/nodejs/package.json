@@ -1,0 +1,28 @@
+{
+    "name": "@pulumi/nsxt",
+    "version": "${VERSION}",
+    "description": "A Pulumi package for creating and managing nsxt cloud resources.",
+    "keywords": [
+        "pulumi",
+        "nsxt"
+    ],
+    "homepage": "https://pulumi.io",
+    "repository": "https://github.com/pulumi/pulumi-nsxt",
+    "license": "Apache-2.0",
+    "scripts": {
+        "build": "tsc"
+    },
+    "dependencies": {
+        "@pulumi/pulumi": "^2.0.0",
+        "builtin-modules": "3.0.0",
+        "read-package-tree": "^5.2.1",
+        "resolve": "^1.8.1"
+    },
+    "devDependencies": {
+        "@types/mime": "^2.0.0",
+        "@types/node": "^8.0.25"
+    },
+    "pulumi": {
+        "resource": true
+    }
+}

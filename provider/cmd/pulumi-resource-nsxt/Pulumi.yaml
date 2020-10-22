@@ -1,0 +1,3 @@
+name: nsxt
+description: A Pulumi resource provider for nsxt.
+language: schema

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@pulumi/pulumi": "/Users/nness/Downloads/pulumi-2.10.1.tgz",
+    "google-protobuf": "/Users/nness/Downloads/google-protobuf-3.13.0.tgz"
+  }
+}
